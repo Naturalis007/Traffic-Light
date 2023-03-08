@@ -1,12 +1,49 @@
 
 /* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
     import 'relative/path/to/stylesheet.scss';
+    css for create circles
 
 */
+#app{
+    display: flex;
+    justify-content: center;
+    background-image: url("https://diariodonordeste.verdesmares.com.br/image/contentid/policy:1.2959650:1593137982/SEMAFORO.jpg?f=16x9&h=720&q=0.8&w=1280&$p$f$h$q$w=15045f9");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 150px;
+}
+
+.traffic-light{
+    background-color: black;
+    border-radius: 20px;
+    margin: auto;
+    padding: 25px;
+    display: inline-block;
+}
+
+.light {
+    height: 250px;
+    width: 250px;
+    background-color: #bbb;
+    border-radius: 50%;
+    margin: 10px;
+    display: block;
+    opacity: 70%;
+  }
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+.glow {
+    box-shadow: 0px 0px 5px 10px rgb(183, 229, 244);
+    opacity: 100%;
+}
